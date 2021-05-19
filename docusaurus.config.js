@@ -1,13 +1,13 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Team 2554 Documentation",
+  tagline: "Hawks are cool",
+  url: "https://team-2554.gitlab.io",
   baseUrl: "/documentation/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
+  organizationName: "Team 2554", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -25,8 +25,8 @@ module.exports = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://gitlab.com/team-2554/documentation",
+          label: "GitLab",
           position: "right",
         },
       ],
