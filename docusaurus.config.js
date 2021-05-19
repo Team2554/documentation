@@ -7,21 +7,21 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "Team 2554", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Team 2554",
+  projectName: "documentation",
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "Team 2554 Documentation",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Team 2554 Logo",
+        src: "img/warhawks_logo.png",
       },
       items: [
         {
           type: "doc",
           docId: "intro",
           position: "left",
-          label: "Tutorial",
+          label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -44,37 +44,37 @@ module.exports = {
           ],
         },
         {
-          title: "Community",
+          title: "Social",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Our Website",
+              href: "https://jpsrobotics2554.org/index.html",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Instagram",
+              href: "https://www.instagram.com/jpsrobotics2554/",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Blue Alliance",
+              href: "https://www.thebluealliance.com/team/2554",
             },
           ],
         },
         {
-          title: "More",
+          title: "Code",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Github",
+              href: "https://github.com/team2554",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Gitlab",
+              href: "https://gitlab.com/team-2554",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Team 2554. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -83,15 +83,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://gitlab.com/team-2554/documentation/-/tree/master",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          editUrl: "https://gitlab.com/team-2554/documentation/-/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
