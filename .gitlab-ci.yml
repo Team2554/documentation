@@ -1,0 +1,16 @@
+image: node:15.12-alpine3.13
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npm run build
+    - mv ./build ./public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
