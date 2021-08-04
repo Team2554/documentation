@@ -78,10 +78,6 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://gitlab.com/team-2554/documentation/-/tree/master",
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: "https://gitlab.com/team-2554/documentation/-/tree/master",
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
