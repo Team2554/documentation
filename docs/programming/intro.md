@@ -3,8 +3,6 @@ sidebar_label: Intro
 sidebar_position: 1
 ---
 
-# Programming Team Documentation
+# Programming Intro
 
-## Sample header 1
-
-## Sample header 2
+---
