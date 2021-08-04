@@ -18,13 +18,6 @@ module.exports = {
       },
       items: [
         {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Docs",
-        },
-        { to: "/blog", label: "Blog", position: "left" },
-        {
           href: "https://gitlab.com/team-2554/documentation",
           label: "GitLab",
           position: "right",
