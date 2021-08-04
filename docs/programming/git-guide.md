@@ -1,5 +1,6 @@
 ---
 sidebar_label: Git Guide
+sidebar_position: 2
 ---
 
 # Team 2554 Git Version Control Guide

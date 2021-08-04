@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Team 2554 Documentation",
-  tagline: "Hawks are cool",
+  tagline: "Hawks fly high",
   url: "https://team-2554.gitlab.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
