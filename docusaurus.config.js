@@ -3,7 +3,7 @@ module.exports = {
   title: "Team 2554 Documentation",
   tagline: "Hawks are cool",
   url: "https://team-2554.gitlab.io",
-  baseUrl: "/documentation/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
