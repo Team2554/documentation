@@ -10,6 +10,10 @@ module.exports = {
   organizationName: "Team 2554",
   projectName: "documentation",
   themeConfig: {
+    colorMode: {
+      defaultMode: "dark",
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: "Team 2554 Documentation",
       logo: {
