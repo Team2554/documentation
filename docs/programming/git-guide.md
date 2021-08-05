@@ -23,18 +23,18 @@ sidebar_position: 3
   - The **remote repository** is stored on a git service. The one we use is **GitLab**.
   - The **local repository** is stored on the **developer’s computer**
 
-What is GitLab?
+### What is GitLab?
 
 - GitLab is a git remote similar to GitHub. We will be using **GitLab** because it is not blocked on the Macbooks, and is more convenient to use if you need to code outside a robotics meeting.
 
-How do I get started with GitLab?
+### How do I get started with GitLab?
 
 1. Go to [http://gitlab.com](http://gitlab.com) and log in with your personal google account, twitter account, GitHub account, or create a new GitLab account.
 2. Send me your GitLab username. To find your username:
    1. Click on your profile icon on the top right after logging in
    2. It will be below your name and start with a ‘@’ sign.
 
-How does developing with git look like?
+### How does developing with git look like?
 
 1. **Remote git repository** created
 2. Repository initialized with files
@@ -70,7 +70,7 @@ How does developing with git look like?
 13. After all the problems are fixed, your merge request can be merged and you can be at peace for anywhere from a few seconds to a few meetings before you are assigned another task. Savour this little free time you have by frantically attempting to finish schoolwork on a meeting that ends at 8 because we didn’t do things fast enough until a week before competition before someone notices your patheticness and tells you to be more useful.
 14. Once you are assigned another task, go back to **step 4**.
 
-How do I create a merge request?
+### How do I create a merge request?
 
 - Here’s a picture guide(before this, select the dropdown that says master and select the name of your branch):
 
@@ -80,7 +80,7 @@ How do I create a merge request?
 
 1. Don’t click the buttons that I told you not to click. You can click `Close merge request` if you accidently made a merge request, but other than that, there is absolutely no point to clicking it.
 
-What else can I not do?
+### What else can I not do?
 
 - **NEVER **do `git push origin master`**.** The only way code should ever end up in the master branch is through **merge requests.**
 - **NEVER** merge your own merge request or consequences similar to the one above will occur.
