@@ -1,9 +1,11 @@
 ---
 sidebar_label: Git Guide
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Team 2554 Git Version Control Guide
+# Git Version Control Guide
+
+---
 
 ### What is git?
 

@@ -9,6 +9,12 @@ pages:
     - npm install
     - npm run build
     - mv ./build ./public
+  cache:
+    - key:
+        files:
+          - package-lock.json
+      paths:
+        - node_modules/
   artifacts:
     paths:
       - public
