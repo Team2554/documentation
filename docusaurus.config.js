@@ -15,7 +15,15 @@ module.exports = {
       {
         indexDocs: true,
         docsRouteBasePath: "/",
+        indexDocSidebarParentCategories: 10,
         indexBlog: false,
+        blogRouteBasePath: "/blog",
+        indexPages: false,
+        language: "en",
+        style: undefined,
+        lunr: {
+          tokenizerSeparator: /[\s\-]+/,
+        },
       },
     ],
   ],
