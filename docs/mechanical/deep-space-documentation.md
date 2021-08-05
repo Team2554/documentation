@@ -43,24 +43,25 @@ sidebar_position: 2
    6. Both the acrylic and plexiglass were shaped and bent using a heat gun. ![drawing](/img/mechanical/deep-space/image3.png)
 
 2. Changed Shooter
+
    1. The 2 wheels were vertically aligned rather than bound by a chain.
    2. One wheel on top of the bar, one on the bottom, linked by an axle.
    3. Motor remained on top.
 
-![drawing](/img/mechanical/deep-space/image4.png)
+      ![drawing](/img/mechanical/deep-space/image11.png)
 
 3. Final Shooter
+
    1. One wheel on each side, rather than two
    2. Guards changed to bent pieces of metal
    3. Material removed from the end to create a thin sheet
-
-![drawing](/img/mechanical/deep-space/image5.png)
+      ![drawing](/img/mechanical/deep-space/image4.png)
 
 4. Actuator Mechanism on Shooter
 
    1. After the shooter mechanism intakes a ball, the ball rests on the plate of the actuator without touching the wheels of the shooter
    2. When shooting the ball, the actuator is extended to push the ball back into the wheels
-      ![drawing](https://docs.google.com/drawings/d/12345/export/png)
+      ![drawing](/img/mechanical/deep-space/image5.png)
 
 5. Usage
    1. At the beginning of each round, the hinge is lowered down as much as possible
