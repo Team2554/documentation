@@ -11,7 +11,7 @@ module.exports = {
         blogRouteBasePath: "/blog",
         indexPages: false,
         language: "en",
-        style: undefined,
+        style: "none",
         lunr: {
           tokenizerSeparator: /[\s\-]+/,
         },

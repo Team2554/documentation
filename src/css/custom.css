@@ -17,6 +17,10 @@
   --ifm-code-font-size: 95%;
 }
 
+.dsla-search-field {
+  width: 15rem;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
