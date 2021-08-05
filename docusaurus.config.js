@@ -1,5 +1,16 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: "/",
+        language: "en",
+      },
+    ],
+  ],
   title: "Team 2554 Documentation",
   tagline: "Hawks fly high",
   url: "https://team-2554.gitlab.io",
