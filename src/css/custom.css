@@ -15,11 +15,16 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+
 }
 
 .dsla-search-field {
   width: 15rem;
+  --aa-muted-color-rgb: rgb(33, 175, 144) !important;
+  --aa-primary-color-rgb: rgb(33, 175, 144) !important;
+  
 }
+
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
