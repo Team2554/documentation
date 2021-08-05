@@ -1,5 +1,6 @@
 ---
-sidebar_label: Deep Space Docuemntation
+sidebar_label: Deep Space Documentation
+sidebar_position: 2
 ---
 
 # Deep Space Documentation
