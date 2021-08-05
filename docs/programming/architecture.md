@@ -36,4 +36,4 @@ Here's a wiring diagram that shows how everything is connected. Focus on the wir
 
 ### RoboRIO Code Architecture
 
-In Team 2554, we used the command-based programming architecture in RoboRIO. All the information about command-baed programming can be found [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html). Read all of the links on that page.
+In Team 2554, we used the command-based programming architecture in RoboRIO. All the information about command-baed programming can be found [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html). Read **_e v e r y t h i n g_**. Every page of every link.
