@@ -9,7 +9,16 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "Team 2554",
   projectName: "documentation",
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        indexDocs: true,
+        docsRouteBasePath: "/",
+        indexBlog: false,
+      },
+    ],
+  ],
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
