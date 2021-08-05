@@ -1,23 +1,5 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        indexDocs: true,
-        docsRouteBasePath: "/",
-        indexDocSidebarParentCategories: 0,
-        indexBlog: false,
-        blogRouteBasePath: "/blog",
-        indexPages: false,
-        language: "en",
-        style: undefined,
-        lunr: {
-          tokenizerSeparator: /[\s\-]+/,
-        },
-      },
-    ],
-  ],
   title: "Team 2554 Documentation",
   tagline: "Hawks fly high",
   url: "https://team-2554.gitlab.io",
