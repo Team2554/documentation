@@ -13,6 +13,10 @@ module.exports = {
     colorMode: {
       defaultMode: "dark",
       respectPrefersColorScheme: false,
+      switchConfig: {
+        darkIcon: "🌙",
+        lightIcon: "☀️",
+      },
     },
     navbar: {
       title: "Team 2554 Documentation",
