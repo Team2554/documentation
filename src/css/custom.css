@@ -15,15 +15,11 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  --aa-muted-color-rgb: rgb(33, 175, 144) !important;
-  --aa-primary-color-rgb: rgb(33, 175, 144) !important;
 }
 
 .dsla-search-field {
   width: 15rem;
-  --aa-muted-color-rgb: rgb(33, 175, 144) !important;
-  --aa-primary-color-rgb: rgb(33, 175, 144) !important;
-  
+
 }
 
 
