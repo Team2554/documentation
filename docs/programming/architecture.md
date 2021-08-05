@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ---
 
-#### Network Architecture
+### Network Architecture
 
 The RoboRIO is like the brain of the robot. It's the central point for all input/output for the robot. The RoboRIO is connected to a radio through Ethernet, which usually acts as a wireless access point, but can also connect to another AP, which is usually done at competitions.
 
@@ -21,7 +21,7 @@ NetworkTables is also used to transmit data back to the driver station. Informat
 
 More information on software components can be found [here](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-software.html). You can ignore LabView, LiveWindow, the Log Viewer, RobotBuilder, Robot Simulator, Outline Viewer, and the Axis Camera. We never have and never will use those. You do not need to worry about PathWeaver and Robot Charectarization yet, those will come up later.
 
-#### Hardware Architecture
+### Hardware Architecture
 
 Motor controllers are connected to the RoboRIO through a variety of connectors. Basic motor controllers are connected through PWM pins. PWM is a way of encoding analog signals as digital signals, and it basically allows the RoboRIO to send a 0-100% number to the motor controller. More info on PWM [here](https://www.arduino.cc/en/Tutorial/Foundations/PWM).
 
@@ -32,8 +32,8 @@ Most commons sensors will have a class in the WPILib library for easy control. B
 Some years, we also use pneumatics. Pneumatic solenoids are connected to a Pneumatic Control Module, which is in turn connected to the RoboRIO through the CAN bus. WPILib has easy to use libraries to control solenoids and other pneumatic-related devices.
 
 Here's a wiring diagram that shows how everything is connected. Focus on the wires that are used for signaling. You can ignore the power cables, those are the electrical team's problem:
-<img src="https://docs.wpilib.org/en/stable/_images/frc-control-system-layout.svg" style={{backgroundColor: '#ffffff40'}}></img>
+<img src="https://docs.wpilib.org/en/stable/_images/frc-control-system-layout.svg" style={{backgroundColor: '#ffffff80'}}></img>
 
-#### RoboRIO Code Architecture
+### RoboRIO Code Architecture
 
 In Team 2554, we used the command-based programming architecture in RoboRIO. All the information about command-baed programming can be found [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html). Read all of the links on that page.
