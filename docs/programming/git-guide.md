@@ -42,9 +42,9 @@ How does developing with git look like?
 3. Log in to GitLab. Click on the project name(FRC-2020). **DO NOT IGNORE THE WARNING TO SET A PASSWORD**. Click the link on the warning to set a password. You can ignore the other warning(the SSL one).
 4. **Clone** the repository to your computer using the **`git clone https://git-url`** command.
    - To find the git url, click on the project name(FRC-2020) and click the blue clone button. Copy the url to clone with HTTPS.
-5. Create and switch to a new **feature branch** using `**git checkout -b branch-name`\*\*.
+5. Create and switch to a new **feature branch** using **`git checkout -b branch-name`**.
 
-   - Note: You can use `**git checkout branch-name**` (note that this does not have **-b**) to switch to different branches, and is useful if you are working on multiple projects
+   - Note: You can use **`git checkout branch-name`** (note that this does not have **-b**) to switch to different branches, and is useful if you are working on multiple projects
 
 6. **Push** the **branch** to the **remote repository** using the **`git push -u origin branch-name`.** If you make further changes and need to push again, then just use **`git push branch-name`**
 
