@@ -32,7 +32,7 @@ Most commons sensors will have a class in the WPILib library for easy control. B
 Some years, we also use pneumatics. Pneumatic solenoids are connected to a Pneumatic Control Module, which is in turn connected to the RoboRIO through the CAN bus. WPILib has easy to use libraries to control solenoids and other pneumatic-related devices.
 
 Here's a wiring diagram that shows how everything is connected. Focus on the wires that are used for signaling. You can ignore the power cables, those are the electrical team's problem:
-![wiring diagram](https://docs.wpilib.org/en/stable/_images/frc-control-system-layout.svg)
+<img src="https://docs.wpilib.org/en/stable/_images/frc-control-system-layout.svg" style={{backgroundColor: '#ffffff80'}}></img>
 
 #### RoboRIO Code Architecture
 
