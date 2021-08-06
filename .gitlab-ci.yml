@@ -6,7 +6,7 @@ cache:
     - .npm/
 
 before_script:
-  - npm ci --cache .npm --prefer-offline
+  - npm ci --cache .npm --prefer-offline --no-audit
 
 stages:
   - deploy
@@ -14,7 +14,6 @@ stages:
 pages:
   stage: deploy
   script:
-    - npm install
     - npm run build
     - mv ./build ./public
   artifacts:
