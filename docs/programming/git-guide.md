@@ -86,4 +86,5 @@ sidebar_position: 3
 - **NEVER** merge your own merge request or consequences similar to the one above will occur.
 - Basically don’t mess with master and try your best to keep crappy code out of it.
 - **NEVER** not use Google! It is your best friend. I get asked stupid questions way too many times and most of the time, the answer can be easily Googled.
+- **NEVER** upload files directly to GitLab. Only add files by commiting them to your local repository and then pushing them.
 - If you disobey these rules, the “Git Gods of Organized Programming” will come after you and haunt your dreams.
