@@ -76,7 +76,7 @@ If it is safe to assume that the vision target will always be upright, then you 
 
 Now that we have found the location of the vision target within an image, it's time to find it's location relative to the robot. Because we only have one camera, this is not a very simple task.
 
-### Angle to target
+#### Angle to target
 
 First, let's focus on getting the angle to target. In order to convert the pixel distance from the center of the target to the center of the image into an angle, we will need to know few key parameters that define the camera. To find these numbers, we need to perform camera calibration, a process described in [this other OpenCV documentation page](https://docs.opencv.org/4.5.2/dc/dbb/tutorial_py_calibration.html). The past year's HawkVision GitHub repository already contains code to do this. The OpenCV article also describes undistortion, which we will apply on the image before any further processing(yes, even before the GRIP pipeline).
 
@@ -113,7 +113,7 @@ style={{ filter: useThemeContext().isDarkTheme ? "invert(1)" : "invert(0)" , wid
 
 Just do the same for the y axis for vertical angle.
 
-### Distance to target
+#### Distance to target
 
 Finding the distance to a target is relatively easy, at least compared to finding the angle to target, especially if you know the true dimensions of what you are finding the length to, which is the case for FRC vision targets.
 
