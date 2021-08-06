@@ -101,6 +101,8 @@ module.exports = {
           routeBasePath: "/",
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
