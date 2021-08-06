@@ -124,4 +124,4 @@ ratio = pixelWidthAtSampleDistance * sampleDistance / realWidth
 distance = realWidth * ratio / currentPixelWidth
 ```
 
-As per whether to choose width or height, choose whichever one is smaller, because it is less likely to go out of frame.
+As per whether to choose width or height, choose whichever one is smaller, because it is less likely to go out of frame. For example, if you chose width for a wide object, and a part of it went out of frame, then the program would output a distance lower than the true distance because the width is measured to be smaller than it actually is.

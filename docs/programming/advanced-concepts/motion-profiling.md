@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ### PID
 
-PID stands for proportional-integral-derivative. It's a form of closed loop control, and that's basically all I feel like explaining it. [Here's a nice article that explains it much better than I ever will](https://docs.wpilib.org/pt/latest/docs/software/advanced-controls/introduction/index.html).
+PID stands for proportional-integral-derivative. It's a form of closed loop control, and that's basically all I feel like explaining it. [Here's a nice article that explains it much better than I ever will](https://docs.wpilib.org/pt/latest/docs/software/advanced-controls/introduction/index.html). There was a very useful video on that page but for some reason it's now private.
 
 ### Motion Profiling
 

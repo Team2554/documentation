@@ -25,4 +25,4 @@ Coprocessor code is written in Python as it is easy to use OpenCV in Python, but
 
 ### Miscellaneous Tasks
 
-In addition to programming the robot, the programming subteam is also responsible for a few miscellaneous tasks, such as imaging and/or updating the firmware of the RoboRIO, the WiFi radio, and some motor controllers.
+In addition to programming the robot, the programming subteam is also responsible for a few miscellaneous tasks, such as imaging and/or updating the firmware of the RoboRIO, the WiFi radio, and some motor controllers(such as the Talon SRX or Victor SPX).
