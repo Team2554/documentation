@@ -7,10 +7,10 @@ slug: /
 
 Use the left sidebar to quickly navigate to documentation for each team.
 
-## Important Notes
+## Links to Each Subteam
 
-### Electrical Team
+### [Electrical Team](electrical/intro.md)
 
-### Mechanical Team
+### [Mechanical Team](mechanical/intro.md)
 
-### Programming Team
+### [Programming Team](programming/intro.md)
