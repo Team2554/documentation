@@ -34,6 +34,12 @@ Some years, we also use pneumatics. Pneumatic solenoids are connected to a Pneum
 Here's a wiring diagram that shows how everything is connected. Focus on the wires that are used for signaling. You can ignore the power cables, those are the electrical team's problem:
 <img src="https://docs.wpilib.org/en/stable/_images/frc-control-system-layout.svg" style={{backgroundColor: '#ffffff80'}}></img>
 
-### RoboRIO Code Architecture
+### Software Architecture
 
 In Team 2554, we used the command-based programming architecture in RoboRIO. All the information about command-baed programming can be found [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html). You don't need to read anything after `Convinience Features`.
+
+In order to control the robot through a laptop, we use the driver station, which you can learn about [here](https://docs.wpilib.org/en/stable/docs/software/driverstation/index.html). It is especially important to get familiar with the driver station before reading the documentation for any of the repositories.
+
+We also use ShuffleBoard to view any data put on NetworkTables. Shuffleboard allows us to make neat graphs and other graphics to easily understand the data. You can learn about shuffleboard [here](https://docs.wpilib.org/en/stable/docs/software/wpilib-tools/shuffleboard/index.html).
+
+Make sure to at least look at the general overview of the driver station and shuffleboard. You don't need to go into too much detail right now, but you will once you start using them.
