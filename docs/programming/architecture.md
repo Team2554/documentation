@@ -43,3 +43,5 @@ In order to control the robot through a laptop, we use the driver station, which
 We also use ShuffleBoard to view any data put on NetworkTables. Shuffleboard allows us to make neat graphs and other graphics to easily understand the data. You can learn about shuffleboard [here](https://docs.wpilib.org/en/stable/docs/software/wpilib-tools/shuffleboard/index.html).
 
 Make sure to at least look at the general overview of the driver station and shuffleboard. You don't need to go into too much detail right now, but you will once you start using them.
+
+The WPILib documentation is also the place you need to go to whenever you need to figure out how to update firmware on anything or update any of the driver station software(such as Shuffleboard or FRC Driver Station).
