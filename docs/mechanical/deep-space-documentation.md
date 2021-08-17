@@ -135,4 +135,4 @@ sidebar_position: 2
    1. Plexi-glass used to cover E-Board to protect from metal shavings
    2. Plexi-glass panel on the side to show the names of sponsors
    3. Acrylic originally used in shooter-guards
-   4. Acrylic used to form a holding zone for the ball between the actuator and wheels.
+   4. Acrylic used to form a holding zone for the ball between the actuator and wheels
