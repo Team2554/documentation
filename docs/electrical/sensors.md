@@ -3,9 +3,9 @@ sidebar_label: 'Sensors'
 sidebar_position: 4
 ---
 
-### Color Sensor 
-- Using an white LED light and an IR Camera
-- 3.3 Volts to Power
-- Range of Use 1cm - 10cm
-- The White LED is controlled via a physical switch on the sensor itself
+# Sensors
+---
 
+### Color Sensor 
+The color sensors use an IR Camera to detect color. The sensor requires 3.3 volts of power and its effective range is from one to ten centimeters. Located on the color sensor is a white.
+<img src="/img/electrical/colorsenor.png" width="200"/>
