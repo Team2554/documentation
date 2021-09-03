@@ -2,7 +2,7 @@
 sidebar_label: RoboRIO
 sidebar_position: 2
 ---
-#RoboRIO
+# RoboRIO
 ---
 ### RoboRIO
 The RoboRIO is the motherboard of the robot and is based on the Cortex‑A9 processor (ARM). The RoboRIO has an I2C port, SPI port, RS232 port, USB port, Ethernet port, PWM management, and built-in relays. The RoboRIO also has an onboard accelerometer and a built-in LED. Attached below is the wiring diagram of the RoboRIO and its supported modules.

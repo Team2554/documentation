@@ -3,6 +3,9 @@ sidebar_label: 'Motor Controllers'
 sidebar_position: 6
 ---
 
+# Motor Controllers
+---
+
 ### DMC-60 and DMC-60C Motor Controller
 The Jaguar Motor Controller from VEX Robotics (formerly made by Luminary Micro and Texas Instruments) is a variable speed motor controller for use in FRC. For FRC, the Jaguar may only be controlled using the PWM interface
 
