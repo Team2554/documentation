@@ -5,12 +5,14 @@ slug: /
 
 # Main Page / Quicklinks
 
-Use the left sidebar to quickly navigate to documentation for each team.
+## Here you'll find [electrical](electrical/intro.md), [mechanical](mechanical/intro.md), and [programming](programming/intro.md) information that we have made public for the FRC Challenge.
 
-## Links to Each Subteam
+## Use the left sidebar to quickly navigate to documentation for each team.
 
-### [Electrical Team](electrical/intro.md)
+### Links to Each Subteam
 
-### [Mechanical Team](mechanical/intro.md)
+#### [Electrical Team](electrical/intro.md)
 
-### [Programming Team](programming/intro.md)
+#### [Mechanical Team](mechanical/intro.md)
+
+#### [Programming Team](programming/intro.md)
