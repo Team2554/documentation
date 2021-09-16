@@ -8,7 +8,7 @@ sidebar_position: 2
 ### DriveTrain
 This is probably the most important subsystem on the entire robot. It is responsible for controlling all the movement of the robot, and includes some helper functions useful for motion planning in autonomous mode.
 
-The robot's drivetrain is known as a differential drivetrain, and it performs similarly two a tank. It has wheels on each side, and to go forward, both sides go forward. To rotate to the right, the left side goes forward, and the right side goes backward, and you get the idea.
+The robot's drivetrain is known as a differential drivetrain, and it performs similarly to a tank. It has wheels on each side, and to go forward, both sides go forward. To rotate to the right, the left side goes forward, and the right side goes backward, and you get the idea.
 
 The physical drivetrain on our robot has two motors on each side, connected to a gearbox which combines their power and connects them to the center wheel on that side. The center wheel is connected through a belt to the front and the back wheels.
 
